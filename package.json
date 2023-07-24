@@ -1,0 +1,29 @@
+{
+  "name": "funpizzashop2",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "src/Client"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run start --workspace=src/Client" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jr-jesse123/funPizzaShop2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jr-jesse123/funPizzaShop2/issues"
+  },
+  "homepage": "https://github.com/jr-jesse123/funPizzaShop2#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
