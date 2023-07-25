@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "paket": {
+      "version": "8.0.0-alpha002",
+      "commands": [
+        "paket"
+      ]
+    },
+    "fable": {
+      "version": "4.1.4",
+      "commands": [
+        "fable"
+      ]
+    },
+    "telplin": {
+      "version": "8.0.1",
+      "commands": [
+        "telplin"
+      ]
+    },
+    "fantomas": {
+      "version": "6.1.2",
+      "commands": [
+        "fantomas"
+      ]
+    }
+  }
+}
