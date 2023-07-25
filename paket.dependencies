@@ -4,4 +4,6 @@ storage: none
 framework: auto-detect
 
 nuget FSharp.Core
+nuget Giraffe
+nuget Microsoft.AspNetCore.App
 nuget Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.18.1

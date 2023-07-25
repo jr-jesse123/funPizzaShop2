@@ -1,2 +1,4 @@
 Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 FSharp.Core
+Giraffe
+Microsoft.AspNetCore.App
