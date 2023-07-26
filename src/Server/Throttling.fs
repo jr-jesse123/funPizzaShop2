@@ -2,7 +2,6 @@
 
 module FunPizza.Server.Throttling
 
-open Microsoft.AspNetCore.Http
 open ThrottlingTroll
 
 let setOptions (options: ThrottlingTrollOptions) =
