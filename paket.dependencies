@@ -6,7 +6,7 @@ framework: auto-detect
 nuget FSharp.Core
 nuget Giraffe
 nuget Giraffe.SerilogExtensions
-nuget Microsoft.AspNetCore.App
+//nuget Microsoft.AspNetCore.App
 nuget Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.18.1
 nuget Serilog
 nuget Serilog.Expressions
@@ -14,3 +14,10 @@ nuget Serilog.Formatting.Compact
 nuget Serilog.Sinks.Console
 nuget Serilog.Sinks.File
 nuget serilog.sinks.seq
+nuget ThrottlingTroll 
+//nuget Microsoft.AspNetCore.Http == 2.2.2
+//nuget Microsoft.AspNetCore.Http.Abstractions == 2.2
+//nuget Microsoft.AspNetCore.Http.Features == 2.2
+//nuget Microsoft.AspNetCore.WebUtilities == 2.2
+//nuget Microsoft.Extensions.Configuration.Binder == 7.0.2
+//nuget Microsoft.Extensions.Configuration.Abstractions == 7.0
