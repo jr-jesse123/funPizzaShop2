@@ -2,3 +2,10 @@ Microsoft.VisualStudio.Azure.Containers.Tools.Targets
 FSharp.Core
 Giraffe
 Microsoft.AspNetCore.App
+Serilog
+Serilog.Sinks.Console
+Serilog.Sinks.File
+Giraffe.SerilogExtensions
+Serilog.Expressions
+Serilog.Formatting.Compact
+serilog.sinks.seq
