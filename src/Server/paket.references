@@ -10,3 +10,5 @@ Serilog.Formatting.Compact
 serilog.sinks.seq
 ThrottlingTroll
 thoth.json.net
+Hocon.Extensions.Configuration
+Serilog.Extensions.Hosting

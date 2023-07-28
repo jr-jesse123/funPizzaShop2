@@ -8,7 +8,7 @@ open System.Threading.Tasks
 open System
 
 //todo: separate contracts vs serilog implementation
-let boostsTrapLogger () =
+let bootsTrapLogger () =
     let logger = LoggerConfiguration()
                     .MinimumLevel.Verbose()
                     .WriteTo.Console()
@@ -75,7 +75,7 @@ let configureMiddleware _ (services:IServiceProvider) (loggerConfiguration:Logge
 #if DEBUG
         .WriteTo.Seq("http://localhost:5341") //TODO: ADD SEQ USING DOCKER COMPSOSE
 #endif
-        
+        |> ignore
 
         
         

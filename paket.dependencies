@@ -6,12 +6,14 @@ framework: auto-detect
 nuget FSharp.Core
 nuget Giraffe
 nuget Giraffe.SerilogExtensions
+nuget Hocon.Extensions.Configuration
 nuget Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.18.1
 nuget Serilog
 nuget Serilog.Expressions
+nuget Serilog.Extensions.Hosting
 nuget Serilog.Formatting.Compact
 nuget Serilog.Sinks.Console
 nuget Serilog.Sinks.File
 nuget serilog.sinks.seq
 nuget thoth.json.net
-ThrottlingTroll
+nuget ThrottlingTroll

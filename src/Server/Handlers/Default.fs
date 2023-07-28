@@ -14,7 +14,7 @@ let webApp (env:#_) (layout: HttpContext -> (int -> string Task) -> string Task)
 
     let defaultRout = viewRout (Index.view env) 
 
-    choose[ routeCi "/" >=> defaultRout]
+    choose [ routeCi "/" >=> defaultRout ]
 
 
 //TODO: UNDERSTAND THE PROPOUSE OF THIS FUNCTION

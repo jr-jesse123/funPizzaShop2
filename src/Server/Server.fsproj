@@ -7,6 +7,9 @@
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="config.hocon">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Compile Include="Views\Common.fs" />
     <Compile Include="Views\Index.fs" />
     <Compile Include="Views\Layout.fs" />
